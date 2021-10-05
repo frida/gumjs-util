@@ -17,7 +17,7 @@
     "util.js",
     "support"
   ],
-  "homepage": "https://github.com/frida/node-util",
+  "homepage": "https://github.com/frida/gumjs-util",
   "keywords": [
     "util"
   ],
@@ -26,7 +26,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frida/node-util"
+    "url": "https://github.com/frida/gumjs-util"
   },
   "scripts": {
     "test": "node test/node/index.js"
