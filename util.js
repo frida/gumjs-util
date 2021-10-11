@@ -185,6 +185,7 @@ export function inspect(obj, opts) {
   if (ctx.colors) ctx.stylize = stylizeWithColor;
   return formatValue(ctx, obj, ctx.depth);
 }
+inspect.custom = Symbol.for('nodejs.util.inspect.custom');
 
 
 // http://en.wikipedia.org/wiki/ANSI_escape_code#graphics
