@@ -21,6 +21,8 @@
 
 import * as _types from './support/types.js';
 
+import process from 'process';
+
 export const types = {
   ..._types,
   isRegExp,
